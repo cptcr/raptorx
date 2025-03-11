@@ -1,0 +1,18 @@
+{
+    "compilerOptions": {
+      "outDir": "./dist",         // Move compiled files to ./dist
+      "declaration": true,        // Generate .d.ts files
+      "declarationMap": true,     // Include mapping files for .d.ts
+      "emitDeclarationOnly": false, // Ensure JS files are also emitted
+      "module": "CommonJS",       // Use CommonJS for Node.js compatibility
+      "target": "ESNext",         // Compile to latest JS version
+      "rootDir": ".",             // Include all files from the project root
+      "strict": true,             // Enable strict type checking
+      "esModuleInterop": true,    // Improve compatibility with ES modules
+      "skipLibCheck": true,       // Skip type checking for declaration files
+      "forceConsistentCasingInFileNames": true
+    },
+    "include": ["**/*.ts"],       // Include all .ts files in the project
+    "exclude": ["node_modules", "dist"] // Ignore output and dependencies
+  }
+  
